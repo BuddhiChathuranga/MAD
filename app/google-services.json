@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "916704490097",
+    "firebase_url": "https://e-train-947ba.firebaseio.com",
+    "project_id": "e-train-947ba",
+    "storage_bucket": "e-train-947ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916704490097:android:1bb04b7739a3637a3b21d0",
+        "android_client_info": {
+          "package_name": "com.example.e_train"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916704490097-dpgup8a60m0so09vrqot6aa3lmbomfdp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_train",
+            "certificate_hash": "f2c971f1333092a215dcdbc2ab4a91c0b1813038"
+          }
+        },
+        {
+          "client_id": "916704490097-0s3gvkdlb4gkb0r5lbi6n3i1e6tq6n72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3iAspJEYt6ugewYSLk6cFzPtryvyDdKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916704490097-0s3gvkdlb4gkb0r5lbi6n3i1e6tq6n72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

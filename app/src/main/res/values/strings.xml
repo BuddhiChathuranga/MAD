@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">E-Train</string>
+    <string name="trainS">Train Shedule</string>
 </resources>

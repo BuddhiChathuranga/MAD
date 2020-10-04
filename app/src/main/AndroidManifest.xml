@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.e_train">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,28 +12,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GetpidupdateActivity"></activity>
-        <activity android:name=".GetsiddeleteActivity" />
-        <activity android:name=".GetfiddeleteActivity" />
-        <activity android:name=".GetpiddeleteActivity" />
-        <activity android:name=".GettiddeleteActivity" />
-        <activity android:name=".UpdatefeedbackActivity" />
-        <activity android:name=".UpdatescheduleActivity" />
-        <activity android:name=".UpdateparcelActivity" />
-        <activity android:name=".UpdateticketActivity" />
-        <activity android:name=".GetfidupdateActivity" />
-        <activity android:name=".GetsidupdateActivity" />
-        <activity android:name=".GettidupdateActivity" />
-        <activity android:name=".MyscheduleActivity" />
-        <activity android:name=".MyticketsActivity" />
-        <activity android:name=".MyfeedbackActivity" />
-        <activity android:name=".MyparcelActivity" />
-        <activity android:name=".ProfileActivity" />
+        <activity android:name=".Profile"></activity>
+        <activity android:name=".TrainShedule" />
+        <activity android:name=".ParcelActivity" />
+        <activity android:name=".ShowParcel" />
+        <activity android:name=".ShowTicket" />
+        <activity android:name=".TicketsActivity" />
+        <activity android:name=".ShowFeedback" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".FeedbackActivity" />
-        <activity android:name=".TrainScheduleActivity" />
-        <activity android:name=".ParcelActivity" />
-        <activity android:name=".TrainBookingActivity" />
         <activity android:name=".home" />
         <activity android:name=".MainActivity">
             <intent-filter>
